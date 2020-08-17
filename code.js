@@ -1,4 +1,8 @@
 // helloWorld function 
-function helloWorld() {
-    return "Hello, World!";
+function helloWorld(name) {
+    if (name === true || name === false) {
+        return "Hello, World!";
+    }
+    return `Hello, ${name}!`;
 }
+
