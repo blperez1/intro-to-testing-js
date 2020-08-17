@@ -6,3 +6,6 @@ function helloWorld(name) {
     return `Hello, ${name}!`;
 }
 
+function isFive(num) {
+    return num == 5;
+}
